@@ -8,4 +8,4 @@ cd /home/ubuntu/RaspberryPiMouse/src/drivers/
 sleep 1                   #すぐにはデバイスファイルができないので待つ
 chmod 666 /dev/rt*
      
-echo 0 > /dev/rtmotoren0  #安全のためモータの電源を切っておく
+echo 0 > /dev/rtmotoren0  #安全のためモータの電源を切って
